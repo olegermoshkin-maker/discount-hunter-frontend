@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Discount Hunter 🤑</title>
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script> <!-- Для PDF шеров -->
+</head>
+<body>
+  <div id="app">
+    <h1 class="title">Охота за скидками🔥</h1>
+    <input type="text" id="searchInput" placeholder="iPhone чехол..." class="search-input">
+    <button id="searchBtn" class="glow-btn">Ищем!</button>
+    <div id="results"></div>
+    <div id="cabinet" style="display:none;">
+      <h2>Твой кабинет</h2>
+      <button id="wishlistBtn">Вишлист ❤️</button>
+      <button id="premiumBtn">Премиум (Stars/ЮKassa)</button>
+      <button id="referralBtn">Пригласи друга (+5 запросов)</button>
+      <button id="shareBtn">Шерь вишлист (TG/Email/PDF)</button>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
