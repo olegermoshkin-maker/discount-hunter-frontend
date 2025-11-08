@@ -2,7 +2,7 @@ const tg = window.Telegram.WebApp;
 tg.ready(); tg.expand();
 tg.MainButton.text = 'Кабинет'; tg.MainButton.onClick(() => document.getElementById('cabinet').style.display = 'block');
 
-const BACKEND_URL = 'https://your-backend.onrender.com';  // Твой Render URL после деплоя
+const BACKEND_URL = 'https://discount-hunter-backend.onrender.com';  // Твой Render URL после деплоя
 
 const searchBtn = document.getElementById('searchBtn');
 const searchInput = document.getElementById('searchInput');
